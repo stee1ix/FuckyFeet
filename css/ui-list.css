@@ -129,3 +129,11 @@
 .list .num:hover h3 {
     left: 1rem;
   }
+
+.perk{
+    width: 20rem;
+}
+
+.p-font-perk{
+    font-size: 1.25rem;
+}
