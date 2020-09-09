@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ff6347;
+    background-color: black;
     z-index: 999999;
     }
 
@@ -19,7 +19,7 @@
       .spinner > div {
         width: 18px;
         height: 18px;
-        background-color: #333;
+        background-color: purple;
       
         border-radius: 100%;
         display: inline-block;
