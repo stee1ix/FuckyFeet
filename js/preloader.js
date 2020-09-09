@@ -1,4 +1,9 @@
-window.onload = function(){
-    //hide the preloader
-    document.querySelector(".spinner-wrapper").style.display = "none";
-}
+$(document).ready(function () {
+  //Preloader
+  preloaderFadeOutTime = 500;
+  function hidePreloader() {
+    var preloader = $(".spinner-wrapper");
+    preloader.fadeOut(preloaderFadeOutTime);
+  }
+  hidePreloader();
+});
