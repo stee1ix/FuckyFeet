@@ -1884,6 +1884,12 @@ ul.tabs-nav .tab-nav.active {
     background: #232127;
 }
 
+#faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*--------------------------------------------------------------
 # Contact Page
 --------------------------------------------------------------*/
