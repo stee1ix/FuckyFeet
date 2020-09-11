@@ -408,7 +408,7 @@ iframe {
   }
 
   .login100-pic {
-    width: 35%;
+    width: 100%;
   }
 
   .login100-form {
@@ -421,9 +421,7 @@ iframe {
     padding: 100px 80px 33px 80px;
   }
 
-  .login100-pic {
-    display: none;
-  }
+
 
   .login100-form {
     width: 100%;
