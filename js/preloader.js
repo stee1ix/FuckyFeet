@@ -1,9 +1,2 @@
-$(document).ready(function () {
-  //Preloader
-  preloaderFadeOutTime = 900;
-  function hidePreloader() {
-    var preloader = $(".spinner-wrapper");
-    preloader.fadeOut(preloaderFadeOutTime);
-  }
-  hidePreloader();
-});
+document.getElementById('app').style['display'] = 'block';
+document.getElementById('splash').style['display'] = 'none';
